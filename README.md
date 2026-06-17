@@ -2,6 +2,8 @@
 
 # 🛒 E-Commerce Relational Data Modeling & Advanced SQL Analytics
 
+> **Notice:** This SQL project was created entirely by me, featuring clean, well-structured, and easy-to-understand queries.
+
 ## 📋 Project Overview
 This repository contains an end-to-end relational database design and analytical portfolio for a modern e-commerce platform. The project starts by constructing a normalized database schema from scratch, populating it with realistic transactional mock data, and executing **47 strategic business intelligence queries** to extract actionable insights.
 
