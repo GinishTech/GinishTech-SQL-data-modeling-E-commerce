@@ -1,5 +1,8 @@
 # GinishTech-SQL-data-modeling-E-commerce
 
+<meta name="google-site-verification" content="F-2FKemmIvUxWR1zq2bKV-emovAXh8NE88CnkCvmQbk" />
+
+
 # 🛒 E-Commerce Relational Data Modeling & Advanced SQL Analytics
 
 ## 📋 Project Overview
