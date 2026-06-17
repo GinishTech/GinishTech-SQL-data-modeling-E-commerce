@@ -7,33 +7,7 @@ This repository contains an end-to-end relational database design and analytical
 
 The purpose of this project is to demonstrate advanced SQL competency, data architecture design patterns, and the ability to bridge raw technical tables into executive-level business metrics.
 
-
-## 🛠️ Key Query Showcases & Technical Snippets
-
-Here are visual deep dives into some of the most critical query types implemented within the project, showcasing performance validation directly from the database compiler.
-
-### 1. Conditional Aggregations (`GROUP BY` + `HAVING`)
-**Business Problem:** Isolate top-tier customer segments whose cumulative lifetime transactions exceed $500 to run targeted retention campaigns.
-![Query 1 Snippet](Query%201.png)
-
-### 2. Time-Series Window Functions (`SUM() OVER`)
-**Business Problem:** Calculate transactional daily revenue pacing along with a monthly running total for the financial ledger.
-![Query 4 Snippet](Query%204.png)
-
-### 3. Dynamic Evaluation Logic (`CASE WHEN`)
-**Business Problem:** Transform stock raw numerical volumes into automated, operational status triggers (`Healthy`, `Low Stock`, `Out of Stock`).
-![Query 17 Snippet](Query%2017.png)
-
-### 4. Multi-Table Linear Linage Tracking (`INNER JOIN`)
-**Business Problem:** Stitch 6 distinct entities together to perfectly trace a customer's experience from their name down to shipping updates.
-![Query 18 Snippet](Query%2018.png)
-
-### 5. System Integrity Exception Handling (`LEFT JOIN` + `IS NULL`)
-**Business Problem:** Audit backend logs to detect "orphan orders"—purchases successfully checked out but missing package allocations.
-![Query 46 Snippet](Query%2046.png)
-
 ---
-
 
 ## 📐 Relational Database Schema Architecture
 
@@ -53,6 +27,33 @@ Below is the structural entity-relationship mapping for this e-commerce ecosyste
 * **`Order_Items`**: The core cross-reference bridge table managing many-to-many granular item purchases.
 * **`Shipments`**: Logistics fulfillment logs handling transit stages and carrier data.
 * **`Product_Reviews`**: Post-purchase customer feedback loop recording numeric ratings and reviews.
+
+---
+
+## 🛠️ Key Query Showcases & Technical Snippets
+
+Here are visual deep dives into some of the most critical query types implemented within the project, showcasing performance validation directly from the database compiler.
+
+### 1. Conditional Aggregations (`GROUP BY` + `HAVING`)
+**Business Problem:** Isolate top-tier customer segments whose cumulative lifetime transactions exceed $500 to run targeted retention campaigns.
+![Query 1 Snippet](Query%201.png)
+
+### 2. Time-Series Window Functions (`SUM() OVER`)
+**Business Problem:** Calculate transactional daily revenue pacing along with a monthly running total for the financial ledger.
+![Query 4 Snippet](Query%204.jpg)
+
+### 3. Dynamic Evaluation Logic (`CASE WHEN`)
+**Business Problem:** Transform stock raw numerical volumes into automated, operational status triggers (`Healthy`, `Low Stock`, `Out of Stock`).
+![Query 17 Snippet](Query%2017.png)
+
+### 4. Multi-Table Linear Linage Tracking (`INNER JOIN`)
+**Business Problem:** Stitch 6 distinct entities together to perfectly trace a customer's experience from their name down to shipping updates.
+![Query 18 Snippet](Query%2018.jpg)
+
+### 5. System Integrity Exception Handling (`LEFT JOIN` + `IS NULL`)
+**Business Problem:** Audit backend logs to detect "orphan orders"—purchases successfully checked out but missing package allocations.
+![Query 46 Snippet](Query%2046.png)
+
 ---
 
 ## 🚀 Getting Started & Execution
