@@ -40,7 +40,7 @@ Here are visual deep dives into some of the most critical query types implemente
 
 ### 2. Time-Series Window Functions (`SUM() OVER`)
 **Business Problem:** Calculate transactional daily revenue pacing along with a monthly running total for the financial ledger.
-![Query 4 Snippet](Query%204.jpg)
+![Query 4 Snippet](Query%204.png)
 
 ### 3. Dynamic Evaluation Logic (`CASE WHEN`)
 **Business Problem:** Transform stock raw numerical volumes into automated, operational status triggers (`Healthy`, `Low Stock`, `Out of Stock`).
@@ -48,7 +48,7 @@ Here are visual deep dives into some of the most critical query types implemente
 
 ### 4. Multi-Table Linear Linage Tracking (`INNER JOIN`)
 **Business Problem:** Stitch 6 distinct entities together to perfectly trace a customer's experience from their name down to shipping updates.
-![Query 18 Snippet](Query%2018.jpg)
+![Query 18 Snippet](Query%2018.png)
 
 ### 5. System Integrity Exception Handling (`LEFT JOIN` + `IS NULL`)
 **Business Problem:** Audit backend logs to detect "orphan orders"—purchases successfully checked out but missing package allocations.
