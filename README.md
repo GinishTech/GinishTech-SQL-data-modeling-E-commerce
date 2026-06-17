@@ -16,7 +16,7 @@ The database environment is designed using a highly normalized **8-table archite
 ### Database ER Diagram
 Below is the structural entity-relationship mapping for this e-commerce ecosystem:
 
-![Database Schema Diagram](GinishTech%20e_commerce%20Tables%20Schema.jpg)
+![Database Schema Diagram](GinishTech%20e_commerce%20Tables%20Schema.png)
 
 ### Core Schema Components:
 * **`Customers`**: Stores user registration profiles and platform registration timeline data.
