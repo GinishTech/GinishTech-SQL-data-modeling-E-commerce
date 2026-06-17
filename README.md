@@ -1,4 +1,9 @@
+---
+
 <meta name="google-site-verification" content="F-2FKemmIvUxWR1zq2bKV-emovAXh8NE88CnkCvmQbk" />
+
+---
+
 # GinishTech-SQL-data-modeling-E-commerce
 
 # 🛒 E-Commerce Relational Data Modeling & Advanced SQL Analytics
