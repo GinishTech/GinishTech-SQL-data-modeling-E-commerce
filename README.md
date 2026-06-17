@@ -62,4 +62,4 @@ To test or deploy this environment locally:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/GinishTech/ecommerce-sql-modeling.git
+   git clone [https://github.com/GinishTech/ecommerce-sql-modeling.git](https://github.com/GinishTech/ecommerce-sql-modeling.git)
